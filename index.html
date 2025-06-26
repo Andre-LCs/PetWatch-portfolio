@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PetWatch - Portfólio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="img/logo_-removebg-preview.png" alt="PetWatch Logo" class="logo" />
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#telas">Telas</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1>PetWatch</h1>
+      <p>Aqui, você acompanha em tempo real como está seu companheiro. Vamos juntos tornar o cuidado com seu pet mais prático, seguro e cheio de amor!</p>
+    </div>
+  </section>
+
+  <section id="telas" class="telas container">
+    <h2>Apresentação das Telas</h2>
+
+    <!-- Bloco com 3 imagens -->
+    <div class="bloco bloco-3">
+      <div class="grid">
+        <img src="img/tela_5-removebg-preview.png" alt="Tela 4">
+        <img src="img/tela_7-removebg-preview.png" alt="Tela 5">
+        <img src="img/tela_6-removebg-preview.png" alt="Tela 6">
+      </div>
+      <p>Descrição das Telas 4 a 6 - Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- Bloco com 2 imagens -->
+    <div class="bloco bloco-2">
+      <div class="grid">
+        <img src="img/tela_2-removebg-preview.png" alt="Tela 2">
+        <img src="img/tela_4-removebg-preview.png" alt="Tela 3">
+      </div>
+      <p>Descrição das Telas 2 e 3 - Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- Bloco com 3 imagens -->
+    <div class="bloco bloco-3">
+      <div class="grid">
+        <img src="img/tela_5-removebg-preview.png" alt="Tela 4">
+        <img src="img/tela_7-removebg-preview.png" alt="Tela 5">
+        <img src="img/tela_6-removebg-preview.png" alt="Tela 6">
+      </div>
+      <p>Descrição das Telas 4 a 6 - Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- Continue para as telas restantes (tela7 até tela13) no mesmo padrão -->
+  </section>
+
+  <section id="sobre" class="sobre container">
+    <h2>Sobre o Projeto</h2>
+    <p>O PetWatch foi desenvolvido para conectar tutores aos seus animais mesmo à distância, oferecendo monitoramento em tempo real com sensores, câmeras e uma interface moderna.</p>
+  </section>
+
+  <section id="contato" class="contato container">
+    <h2>Contato</h2>
+    <p>Email: contato@petwatch.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PetWatch. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav");
+      nav.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
