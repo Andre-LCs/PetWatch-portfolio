@@ -42,8 +42,12 @@ Desenvolver uma interface baseada em **IoT** para monitoramento remoto e cuidado
 
 ## 📄 Documentação e Arquivos
 
-- 📁 [Pacote do Projeto PetWatch (.zip)](./PetWatch%20-%20ENG.zip)
- _(Contém o relatório final, carta assinada e demais materiais em um único pacote)_
+- 📦 [Pacote do Projeto PetWatch (.zip)](./PetWatch%20-%20ENG.zip)
+> Contém todos os documentos finais:  
+> • Relatório final  
+> • Carta de aceite assinada  
+> • Apresentação Final  
+> • Imagem oficial da equipe
 
 ## 🔗 Links do Projeto
 
@@ -70,5 +74,6 @@ Desenvolver uma interface baseada em **IoT** para monitoramento remoto e cuidado
 ## 🧾 Considerações Finais
 
 A equipe destaca o aprendizado prático em metodologias ágeis, prototipagem de interfaces e acessibilidade digital como parte essencial no desenvolvimento do PetWatch.
+
 ---
 
